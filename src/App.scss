@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "Mystery Quest";
+    src: url("./assets/fonts/LiberatorSIROKO-Heavy.ttf");
+}
+
+.header{
+    max-width: 940px;
+    margin: 0 auto;
+    &__div{
+        margin-top: 25px;
+        &__span{
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+            font-size: 9px;
+            line-height: 11px;
+            padding: 3px 7px;
+            background: #5DC2BD;
+            border-radius: 3px;
+        }
+        &__h1{
+            font-family: "Mystery Quest";
+            font-weight: 800;
+            font-size: 35px;
+            line-height: 35px;
+            color: #FFFFFF;
+        }
+        &__p{
+            font-family: 'Inconsolata', monospace;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 117%;
+            color: #FFFFFF;
+        }
+    }
+    &__form1, &__form2 , &__form3{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        background: #311429;
+        border-radius: 3px;
+        &__span{
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+            font-size: 12px;
+            line-height: 137%;
+            color: #EFE5C3;
+        }
+        &__label{
+            display: flex;
+            flex-direction: row;
+            padding: 12px;
+            gap: 10px;
+            background: rgba(255, 255, 255, 0.09);
+            border-radius: 4px;
+            margin-top: 10px;
+            color: #FFFFFF;
+            font-family: 'Inconsolata', monospace;
+        }
+        &__buttom{
+            font-family: 'Inter', sans-serif;
+            cursor: pointer;
+            text-align: center;
+            margin-top: 10px;
+            padding: 12px;
+            background: #339B95;
+            border-radius: 4px;
+            color: white;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 117%;
+        }
+    }
+    &__form3{
+        &__div{
+            margin-top: 10px;
+            &__div{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px;
+                background: linear-gradient(270deg, #FFFFFF 0%, #BDBDBD 100%);
+                border-radius: 2px;
+                &__code{
+                    font-weight: 700;
+                    font-size: 25px;
+                    line-height: 117%;
+                    color: #000000;
+                }
+                &__copy{
+                    cursor: pointer;
+                    border: 2px solid #000000;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 117%;
+                    padding: 3px;
+                }
+            }
+            &__p{
+                font-family: 'Inconsolata', monospace;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 117%;
+                color: #FFFFFF;
+            }
+            &__end-time{
+                &__img{
+                    object-fit: cover;
+                }
+                display: flex;
+                align-items: center;
+                padding: 10px 15px;
+                gap: 10px;
+                background: #2C0C23;
+                border-radius: 3px;
+                &__span{
+                    font-family: 'Inconsolata', monospace;
+                    font-weight: 700;
+                    font-size: 27px;
+                    line-height: 117%;
+                    color: #FFFFFF;
+                }
+            }
+            &__expired{
+                padding: 10px 15px;
+                gap: 10px;
+                background: #C51414;
+                border-radius: 3px;
+                &__span{
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 117%;
+                    color: #FFFFFF;
+                    &__reset{
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+    .hidden-form{
+        display: none;
+    }
+}
+
+
+

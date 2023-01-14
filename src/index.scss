@@ -1,0 +1,47 @@
+
+@font-face {
+    font-family: "Mystery Quest";
+    src: url("./assets/fonts/LiberatorSIROKO-Heavy.ttf");
+}
+
+body{
+    width: 100%;
+    height: 100%;
+
+    a{
+        text-decoration: none;
+        color: #BBBBBB;
+        font-weight: 600;
+    }
+
+    .section{
+        background-color: #4a1e37;
+        height: 80vh;
+        background-image: url(./assets/background.jpg);
+        background-position: center;
+        background-size: cover;
+        padding: 25px;
+        @media (maxx-width: 768px) {
+            background-image: url(./assets/background-mobile.jpg);
+        }
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 15vh;
+        background: #000000;
+        padding: 0 25px;
+        color: #BBBBBB;
+        p{
+            font-size: 14px;
+        font-family: 'Inconsolata', monospace;
+            a{
+                font-family: 'Inter', sans-serif;
+                color: white;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
